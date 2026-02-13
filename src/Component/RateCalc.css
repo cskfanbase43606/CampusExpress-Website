@@ -1,0 +1,731 @@
+.full-section{
+  min-height: 2000px;
+  height: auto;
+}
+
+.text-container {
+  position: absolute;
+  top: 50px; /* Adjust this value to position the text above the rectangle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.addrow{
+  color: purple;
+  width: 1px;
+  background-color: transparent;
+  border: none;
+  font-size:35px;
+  margin-left: 910px;
+  margin-top: -300px;
+  z-index: 899;
+}
+
+.deleterow{
+  color: red;
+  background-color: transparent;
+  width: 1px;
+  font-size:  40px;
+  margin-left: -225px;
+  margin-top: -10px;
+  z-index: 899;
+  border: none;
+}
+
+.gradient-text-top {
+  background: linear-gradient(90deg, #760cc9, #d66904);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: xx-large;
+  font-weight: bolder;
+  background: linear-gradient(90deg, #760cc9, #d66904);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-right: 10px; /* Space between "Express" and "Rate Calculator" */
+}
+
+.rc-text {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: gray;
+}
+
+.rectangle {
+  width: 900px;
+  background-color: rgb(248, 240, 247);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Add some padding for better text placement */
+  text-align: center;
+  position: relative;
+  margin-bottom: 300px;
+  margin-top: 100px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5rem; /* Adds a 5rem gap between the items */
+  min-height: max-content; /* Adjust the height as needed */
+  margin: 20px 20px 0 30px;
+ /* Ensure relative positioning for absolute placeholders */
+}
+
+.input-container {
+  position: relative;
+  width: 300px; /* Match the width of the input divs */
+}
+
+.placeholder-text-del {
+  position: absolute;
+  top: -50px; /* Adjust this value to position the placeholder text above the input */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size:20px; /* Adjust the font size as needed */
+  color: black; /* Placeholder text color */
+  text-align:center;
+  width: 100%;
+  padding-top: 30px;
+  margin-left: 55px;
+}
+
+.placeholder-text-ori {
+  position: absolute;
+  top: -50px; /* Adjust this value to position the placeholder text above the input */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size:20px; /* Adjust the font size as needed */
+  color: black; /* Placeholder text color */
+  text-align:center;
+  width: 100%;
+  padding-top: 30px;
+  margin-left: 125px;
+}
+
+.placeholder-text-we {
+  position: absolute;
+  top: -50px; /* Adjust this value to position the placeholder text above the input */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size:20px; /* Adjust the font size as needed */
+  color: black; /* Placeholder text color */
+  text-align:center;
+  width: 100%;
+  padding-top: 30px;
+  margin-left: 0px;
+}
+.placeholder-text-q {
+  position: absolute;
+  top: -45px; /* Adjust this value to position the placeholder text above the input */
+  left: 56%;
+  transform: translateX(-50%);
+  font-size: 20px; /* Adjust the font size as needed */
+  color: black; /* Placeholder text color */
+  text-align:center;
+  width: 100%;
+  margin-left:55px;
+  
+}
+.placeholder-text-h {
+  position: absolute;
+  top: -45px; /* Adjust this value to position the placeholder text above the input */
+  left: 34.5%;
+  transform: translateX(-50%);
+  font-size: 20px; /* Adjust the font size as needed */
+  color: black; /* Placeholder text color */
+  text-align:center;
+  width: 100%;
+ margin-left:12px;
+}
+.placeholder-text-l {
+  position: absolute;
+  top: -45px; /* Adjust this value to position the placeholder text above the input */
+  left: 14.5%;
+  transform: translateX(-50%);
+  font-size: 20px; /* Adjust the font size as needed */
+  color: black; /* Placeholder text color */
+  text-align:center;
+  width: 100%;
+  margin-left :-30px;
+}
+.placeholder-text-w {
+  position: absolute;
+  top: -45px; /* Adjust this value to position the placeholder text above the input */
+  left: -25%;
+  transform: translateX(-50%);
+  font-size: 20px; /* Adjust the font size as needed */
+  color: black; /* Placeholder text color */
+  text-align:center;
+  width: 100%;
+}
+
+.origin-pincode{
+  width: 175px;
+  background-color: rgb(223, 225, 230);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin-left: 190px;
+  margin-top: 20px; /* Adds a 20px margin at the top of each div */
+}
+
+.wt{
+  width: 175px;
+  background-color: rgb(223, 225, 230);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.del-pincode{
+  width: 175px;
+  background-color: rgb(223, 225, 230);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin-left: 120px;
+  margin-top: 20px; /* Adds a 20px margin at the top of each div */
+}
+
+
+.ht{
+  width: 100px;
+  background-color: rgb(223, 225, 230);
+  border-radius: 20px;
+  margin-left: 65px;
+  margin-top: -10px; /* Adds a 20px margin at the top of each div */
+} 
+
+.length{
+  width: 100px;
+  background-color: rgb(223, 225, 230);
+  border-radius: 20px;
+  margin-left: -35px;
+  margin-top: -10px; /* Adds a 20px margin at the top of each div */
+} 
+
+.width{
+  width: 100px;
+  background-color: rgb(223, 225, 230);
+  border-radius: 20px;
+  margin-left: -125px;
+  margin-top: -10px; /* Adds a 20px margin at the top of each div */
+} 
+
+.qt{
+  width: 100px;
+  background-color: rgb(223, 225, 230);
+  border-radius: 20px;
+  margin-left: 175px;
+  margin-top: -10px; /* Adds a 20px margin at the top of each div */
+} 
+
+.origin-pincode input[type="number"],
+.del-pincode input[type="number"],
+.qt input[type="number"],
+.ht input[type="number"],
+.wt input[type="number"],
+.length input[type="number"],
+.width input[type="number"],
+.total-qt input[type="number"] {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(223, 225, 230);
+  font-size: large;
+  font-weight: normal;
+}
+
+.buttonrate {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(180deg, #a030de, #5d1586);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: -500px;
+  margin-top: 0px; /* Adds a 20px margin at the top of each div */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(180deg, #5d1586, #a030de);
+}
+
+.top-image3 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.text-container-top {
+  position: absolute;
+  top: 100px; /* Adjust this value to position the text above the rectangle */
+  display: flex;
+  flex-direction: column; /* Ensure the text and button are stacked vertically */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: flex-start; /* Align items to the left */
+  width: 100%;
+  margin-left: 100px;
+}
+
+.gradient-text-exp {
+  background: linear-gradient(90deg, #760cc9, #d66904);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-top: -10px;
+  margin-right: 10px; /* Space between "Express" and "Rate Calculator" */
+}
+
+.text-top1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: black;
+  margin-top: -65px;
+  margin-left: 325px;
+}
+.text-top3 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: black;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 450px;
+}
+.text-top2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: black;
+  padding-top: -5px;
+  margin-top: 0px;
+  padding-left: 4px; /* Use padding instead of margin to avoid moving the button */
+  width: 300px;
+  height: 100px;
+}
+
+.button-top {
+  width: 250px;
+  background: linear-gradient(180deg, #a030de, #5d1586);
+  border-radius: 20px;
+  border: 0px transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 30px; /* Adjust this value if necessary */
+  height: 60px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-left: 0; /* Reset margin-left */
+}
+
+.button-img {
+  width: 100px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: -60px; /* Adjust the space between image and text */
+}
+
+.button-top:hover {
+  background: linear-gradient(180deg, #5d1586, #a030de);
+}
+
+.bottom-section {
+  margin-top: 550px;
+}
+
+.gradient-text-result {
+  background: linear-gradient(90deg, #760cc9, #d66904);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  font-weight: bolder;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.text-result1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+  padding-top: 15px;
+  
+  align-items: center; 
+
+}
+.text-result2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+ padding-top: 15px;
+  align-items: center; 
+
+}
+
+@media (max-width: 768px) {
+  
+  .top-section{
+    display: none;
+  }
+  
+
+  .gradient-text-exp{
+    text-align: center;
+  }
+
+  .text-container {
+    position: relative;
+    top: -500px; /* Adjust this value to position the text above the rectangle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    z-index: 999;
+  }
+
+  .full-section {
+    min-height: 1500px;
+    overflow-x: hidden;
+    height: auto;
+  }
+  
+  .addrow {
+    color: purple;
+    transform:translateX(100px);
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    margin-left: 0px;
+    margin-top: -20px;
+    z-index: 899;
+    display: block; /* Ensure the button is displayed as block for mobile */
+    width: 100%;
+  }
+  
+  .deleterow {
+    color: red;
+    background-color: transparent;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 10px;
+    z-index: 899;
+    border: none;
+    display: block; /* Ensure the button is displayed as block for mobile */
+    width: 100%;
+  }
+  
+  .gradient-text-top {
+    background: linear-gradient(90deg, #760cc9, #d66904);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-right: 10px; /* Space between "Express" and "Rate Calculator" */
+  }
+  
+  .rc-text {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: gray;
+  }
+  
+  .rectangle {
+    width: 350px;
+    background-color: rgb(248, 240, 247);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    position: absolute; /* or 'fixed' if you want it to stay in place when scrolling */
+    top: -400px; /* Position the rectangle 300px from the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    margin: 20px 0; /* Optional: keeps some margin */
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    gap: 1rem; /* Adds a gap between the items */
+    min-height: max-content; /* Adjust the height as needed */
+    margin: 20px 0;
+}
+
+  
+  .input-container {
+    position: relative;
+    width: 100%;
+     /* Ensure a max width for the inputs */
+  }
+  
+  .placeholder-text-del{
+    position: absolute;
+    top: -50px;
+    left: -8%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
+
+  .placeholder-text-ori{
+    position: absolute;
+    top: -60px;
+    left: -45%;
+    transform: translateX(-45%);
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  
+  .placeholder-text-we{
+    position: absolute;
+    top: -50px;
+    left: 1%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  
+  .placeholder-text-q{
+    position: absolute;
+    top: -20px;
+    left: -21%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
+
+  
+  .placeholder-text-h{
+    position: absolute;
+    top: 10px;
+    left: -4.5%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  
+  .placeholder-text-l{
+    position: absolute;
+    top: 10px;
+    left: 14%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .placeholder-text-w {
+    position: absolute;
+    top: 10px;
+    left: -1%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
+
+
+
+  
+  
+  .origin-pincode{
+    width: 125%;
+    background-color: rgb(223, 225, 230);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-left: -30px;
+    margin-top: 0px; /* Adds a margin at the top of each div */
+  }
+
+
+  
+  .wt{
+    width: 125%;
+    background-color: rgb(223, 225, 230);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-left: -30px;
+    margin-top: 10px; /* Adds a margin at the top of each div */
+  }
+  
+
+  .del-pincode{
+    width: 125%;
+    background-color: rgb(223, 225, 230);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-left: -30px;
+    margin-top: 10px; /* Adds a margin at the top of each div */
+  }
+  
+
+  .ht{
+    width: 125%;
+    height: 20px;
+    margin-left: -30px;
+    background-color: rgb(223, 225, 230);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 60px; /* Adds a margin at the top of each div */
+  }
+  
+
+  .length{
+    height: 20px;
+    width: 125%;
+    margin-left: -30px;
+    background-color: rgb(223, 225, 230);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 60px; /* Adds a margin at the top of each div */
+  }
+  
+
+  .width{
+    height: 20px;
+    width: 125%;
+    margin-left: -30px;
+    background-color: rgb(223, 225, 230);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 60px; /* Adds a margin at the top of each div */
+  }
+  
+
+  .qt {
+    height: 20px;
+    width: 125%;
+    margin-left: -30px;
+    background-color: rgb(223, 225, 230);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 30px; /* Adds a margin at the top of each div */
+  }
+  
+  
+  .origin-pincode input[type="number"],
+  .del-pincode input[type="number"],
+  .qt input[type="number"],
+  .ht input[type="number"],
+  .wt input[type="number"],
+  .length input[type="number"],
+  .width input[type="number"],
+  .total-qt input[type="number"] {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(223, 225, 230);
+    font-size: large;
+    font-weight: normal;
+  }
+  
+  .buttonrate {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(180deg, #a030de, #5d1586);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 0px;
+  }
+
+}
